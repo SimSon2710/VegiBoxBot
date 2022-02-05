@@ -20,6 +20,8 @@ The users can:
 - delete  favorite
 - delete currently set reminder
 
+<img src="./media/example.gif" height="300">
+
 ## Prerequisites
 
 1. To use the tool, generally make sure
