@@ -19,6 +19,7 @@ The users can:
 - ask for the currently set reminder
 - delete  favorite
 - delete currently set reminder
+- delete all personal data (stored chat id, user name, reminder and favorite)
 
 <img src="./media/example.gif" height="300">
 
@@ -55,6 +56,13 @@ For a few years now the free version of heroku needs applications to sleep at le
 Also, heroku hibernates applications after approx. 30 minutes of no incoming https-requests. For the second issue the
 service of [kaffeine](https://kaffeine.herokuapp.com/) is a valid workaround. As there is no workaround for the 
 first issue, reminders can only be set within hours the application is up.
+
+## Future features and enhancements 
+- Multiple reminders for different days, times and abo weeks
+   - Idea is, that a user can set up a reminder on f.e. sunday for his/her favorite abo of the next week and another one on tuesday for his/her favorite of the current week
+- Button guided reminder setting
+   - implement a procedure to first ask for the week day, then for the time and last whether to remind for the current or the next week
+   - difficulities: Combining MessageHandler, ConversationHandler and CallbackQueryHandler
 
 ## License
 
