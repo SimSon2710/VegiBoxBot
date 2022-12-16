@@ -70,7 +70,7 @@ first issue, reminders can only be set within hours the application is up.
 
 MIT License
 
-Copyright (c) [2022] [Simon Schwarzkopf]
+Copyright (c) 2022 SimSon2710
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
